@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB4B68CD291D965D006135D0 /* NUWITAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68CC291D965D006135D0 /* NUWITAppApp.swift */; };
+		FB4B68CF291D965D006135D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68CE291D965D006135D0 /* ContentView.swift */; };
+		FB4B68D1291D965E006135D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B68D0291D965E006135D0 /* Assets.xcassets */; };
+		FB4B68D5291D965E006135D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B68D4291D965E006135D0 /* Preview Assets.xcassets */; };
+		FB4B68DF291D965E006135D0 /* NUWITAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68DE291D965E006135D0 /* NUWITAppTests.swift */; };
+		FB4B68E9291D965E006135D0 /* NUWITAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68E8291D965E006135D0 /* NUWITAppUITests.swift */; };
+		FB4B68EB291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68EA291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB4B68DB291D965E006135D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4B68C1291D965D006135D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4B68C8291D965D006135D0;
+			remoteInfo = NUWITApp;
+		};
+		FB4B68E5291D965E006135D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4B68C1291D965D006135D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4B68C8291D965D006135D0;
+			remoteInfo = NUWITApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB4B68C9291D965D006135D0 /* NUWITApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUWITApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B68CC291D965D006135D0 /* NUWITAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppApp.swift; sourceTree = "<group>"; };
+		FB4B68CE291D965D006135D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB4B68D0291D965E006135D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4B68D2291D965E006135D0 /* NUWITApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NUWITApp.entitlements; sourceTree = "<group>"; };
+		FB4B68D4291D965E006135D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB4B68DA291D965E006135D0 /* NUWITAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUWITAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B68DE291D965E006135D0 /* NUWITAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppTests.swift; sourceTree = "<group>"; };
+		FB4B68E4291D965E006135D0 /* NUWITAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUWITAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B68E8291D965E006135D0 /* NUWITAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppUITests.swift; sourceTree = "<group>"; };
+		FB4B68EA291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4B68C6291D965D006135D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B68D7291D965E006135D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B68E1291D965E006135D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB4B68C0291D965D006135D0 = {
+			isa = PBXGroup;
+			children = (
+				FB4B68CB291D965D006135D0 /* NUWITApp */,
+				FB4B68DD291D965E006135D0 /* NUWITAppTests */,
+				FB4B68E7291D965E006135D0 /* NUWITAppUITests */,
+				FB4B68CA291D965D006135D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4B68CA291D965D006135D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B68C9291D965D006135D0 /* NUWITApp.app */,
+				FB4B68DA291D965E006135D0 /* NUWITAppTests.xctest */,
+				FB4B68E4291D965E006135D0 /* NUWITAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4B68CB291D965D006135D0 /* NUWITApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B68CC291D965D006135D0 /* NUWITAppApp.swift */,
+				FB4B68CE291D965D006135D0 /* ContentView.swift */,
+				FB4B68D0291D965E006135D0 /* Assets.xcassets */,
+				FB4B68D2291D965E006135D0 /* NUWITApp.entitlements */,
+				FB4B68D3291D965E006135D0 /* Preview Content */,
+			);
+			path = NUWITApp;
+			sourceTree = "<group>";
+		};
+		FB4B68D3291D965E006135D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B68D4291D965E006135D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB4B68DD291D965E006135D0 /* NUWITAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B68DE291D965E006135D0 /* NUWITAppTests.swift */,
+			);
+			path = NUWITAppTests;
+			sourceTree = "<group>";
+		};
+		FB4B68E7291D965E006135D0 /* NUWITAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B68E8291D965E006135D0 /* NUWITAppUITests.swift */,
+				FB4B68EA291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift */,
+			);
+			path = NUWITAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4B68C8291D965D006135D0 /* NUWITApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B68EE291D965E006135D0 /* Build configuration list for PBXNativeTarget "NUWITApp" */;
+			buildPhases = (
+				FB4B68C5291D965D006135D0 /* Sources */,
+				FB4B68C6291D965D006135D0 /* Frameworks */,
+				FB4B68C7291D965D006135D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NUWITApp;
+			productName = NUWITApp;
+			productReference = FB4B68C9291D965D006135D0 /* NUWITApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB4B68D9291D965E006135D0 /* NUWITAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B68F1291D965E006135D0 /* Build configuration list for PBXNativeTarget "NUWITAppTests" */;
+			buildPhases = (
+				FB4B68D6291D965E006135D0 /* Sources */,
+				FB4B68D7291D965E006135D0 /* Frameworks */,
+				FB4B68D8291D965E006135D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4B68DC291D965E006135D0 /* PBXTargetDependency */,
+			);
+			name = NUWITAppTests;
+			productName = NUWITAppTests;
+			productReference = FB4B68DA291D965E006135D0 /* NUWITAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB4B68E3291D965E006135D0 /* NUWITAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B68F4291D965E006135D0 /* Build configuration list for PBXNativeTarget "NUWITAppUITests" */;
+			buildPhases = (
+				FB4B68E0291D965E006135D0 /* Sources */,
+				FB4B68E1291D965E006135D0 /* Frameworks */,
+				FB4B68E2291D965E006135D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4B68E6291D965E006135D0 /* PBXTargetDependency */,
+			);
+			name = NUWITAppUITests;
+			productName = NUWITAppUITests;
+			productReference = FB4B68E4291D965E006135D0 /* NUWITAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4B68C1291D965D006135D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FB4B68C8291D965D006135D0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FB4B68D9291D965E006135D0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FB4B68C8291D965D006135D0;
+					};
+					FB4B68E3291D965E006135D0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FB4B68C8291D965D006135D0;
+					};
+				};
+			};
+			buildConfigurationList = FB4B68C4291D965D006135D0 /* Build configuration list for PBXProject "NUWITApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4B68C0291D965D006135D0;
+			productRefGroup = FB4B68CA291D965D006135D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4B68C8291D965D006135D0 /* NUWITApp */,
+				FB4B68D9291D965E006135D0 /* NUWITAppTests */,
+				FB4B68E3291D965E006135D0 /* NUWITAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4B68C7291D965D006135D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B68D5291D965E006135D0 /* Preview Assets.xcassets in Resources */,
+				FB4B68D1291D965E006135D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B68D8291D965E006135D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B68E2291D965E006135D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4B68C5291D965D006135D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B68CF291D965D006135D0 /* ContentView.swift in Sources */,
+				FB4B68CD291D965D006135D0 /* NUWITAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B68D6291D965E006135D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B68DF291D965E006135D0 /* NUWITAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B68E0291D965E006135D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B68EB291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift in Sources */,
+				FB4B68E9291D965E006135D0 /* NUWITAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB4B68DC291D965E006135D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4B68C8291D965D006135D0 /* NUWITApp */;
+			targetProxy = FB4B68DB291D965E006135D0 /* PBXContainerItemProxy */;
+		};
+		FB4B68E6291D965E006135D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4B68C8291D965D006135D0 /* NUWITApp */;
+			targetProxy = FB4B68E5291D965E006135D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB4B68EC291D965E006135D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB4B68ED291D965E006135D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FB4B68EF291D965E006135D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NUWITApp/NUWITApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NUWITApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoop.NUWITApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB4B68F0291D965E006135D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NUWITApp/NUWITApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NUWITApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoop.NUWITApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB4B68F2291D965E006135D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoop.NUWITAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NUWITApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NUWITApp";
+			};
+			name = Debug;
+		};
+		FB4B68F3291D965E006135D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoop.NUWITAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NUWITApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NUWITApp";
+			};
+			name = Release;
+		};
+		FB4B68F5291D965E006135D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoop.NUWITAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NUWITApp;
+			};
+			name = Debug;
+		};
+		FB4B68F6291D965E006135D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whoop.NUWITAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NUWITApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4B68C4291D965D006135D0 /* Build configuration list for PBXProject "NUWITApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B68EC291D965E006135D0 /* Debug */,
+				FB4B68ED291D965E006135D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B68EE291D965E006135D0 /* Build configuration list for PBXNativeTarget "NUWITApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B68EF291D965E006135D0 /* Debug */,
+				FB4B68F0291D965E006135D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B68F1291D965E006135D0 /* Build configuration list for PBXNativeTarget "NUWITAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B68F2291D965E006135D0 /* Debug */,
+				FB4B68F3291D965E006135D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B68F4291D965E006135D0 /* Build configuration list for PBXNativeTarget "NUWITAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B68F5291D965E006135D0 /* Debug */,
+				FB4B68F6291D965E006135D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4B68C1291D965D006135D0 /* Project object */;
+}
