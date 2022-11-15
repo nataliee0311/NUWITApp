@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB4B68CD291D965D006135D0 /* NUWITAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68CC291D965D006135D0 /* NUWITAppApp.swift */; };
-		FB4B68CF291D965D006135D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68CE291D965D006135D0 /* ContentView.swift */; };
+		FB4B68CD291D965D006135D0 /* CourseScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68CC291D965D006135D0 /* CourseScheduleViewController.swift */; };
+		FB4B68CF291D965D006135D0 /* CourseScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68CE291D965D006135D0 /* CourseScheduleView.swift */; };
 		FB4B68D1291D965E006135D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B68D0291D965E006135D0 /* Assets.xcassets */; };
-		FB4B68D5291D965E006135D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B68D4291D965E006135D0 /* Preview Assets.xcassets */; };
-		FB4B68DF291D965E006135D0 /* NUWITAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68DE291D965E006135D0 /* NUWITAppTests.swift */; };
-		FB4B68E9291D965E006135D0 /* NUWITAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68E8291D965E006135D0 /* NUWITAppUITests.swift */; };
-		FB4B68EB291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B68EA291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift */; };
+		FBAE2F7B2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE2F7A2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift */; };
+		FBAE2F7C2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE2F7A2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift */; };
+		FBAE2F7E2923F1CF00F6FAC5 /* CourseScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE2F7D2923F1CF00F6FAC5 /* CourseScheduleModel.swift */; };
+		FBAE2F7F2923F1CF00F6FAC5 /* CourseScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAE2F7D2923F1CF00F6FAC5 /* CourseScheduleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +35,14 @@
 
 /* Begin PBXFileReference section */
 		FB4B68C9291D965D006135D0 /* NUWITApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUWITApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4B68CC291D965D006135D0 /* NUWITAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppApp.swift; sourceTree = "<group>"; };
-		FB4B68CE291D965D006135D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB4B68CC291D965D006135D0 /* CourseScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleViewController.swift; sourceTree = "<group>"; };
+		FB4B68CE291D965D006135D0 /* CourseScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleView.swift; sourceTree = "<group>"; };
 		FB4B68D0291D965E006135D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4B68D2291D965E006135D0 /* NUWITApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NUWITApp.entitlements; sourceTree = "<group>"; };
-		FB4B68D4291D965E006135D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB4B68DA291D965E006135D0 /* NUWITAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUWITAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4B68DE291D965E006135D0 /* NUWITAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppTests.swift; sourceTree = "<group>"; };
 		FB4B68E4291D965E006135D0 /* NUWITAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUWITAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4B68E8291D965E006135D0 /* NUWITAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppUITests.swift; sourceTree = "<group>"; };
-		FB4B68EA291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NUWITAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBAE2F7A2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleViewModel.swift; sourceTree = "<group>"; };
+		FBAE2F7D2923F1CF00F6FAC5 /* CourseScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				FB4B68CB291D965D006135D0 /* NUWITApp */,
-				FB4B68DD291D965E006135D0 /* NUWITAppTests */,
-				FB4B68E7291D965E006135D0 /* NUWITAppUITests */,
 				FB4B68CA291D965D006135D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,38 +91,22 @@
 		FB4B68CB291D965D006135D0 /* NUWITApp */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B68CC291D965D006135D0 /* NUWITAppApp.swift */,
-				FB4B68CE291D965D006135D0 /* ContentView.swift */,
-				FB4B68D0291D965E006135D0 /* Assets.xcassets */,
+				FBAE2F832924334E00F6FAC5 /* Assets */,
 				FB4B68D2291D965E006135D0 /* NUWITApp.entitlements */,
-				FB4B68D3291D965E006135D0 /* Preview Content */,
+				FB4B68CC291D965D006135D0 /* CourseScheduleViewController.swift */,
+				FB4B68CE291D965D006135D0 /* CourseScheduleView.swift */,
+				FBAE2F7A2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift */,
+				FBAE2F7D2923F1CF00F6FAC5 /* CourseScheduleModel.swift */,
 			);
 			path = NUWITApp;
 			sourceTree = "<group>";
 		};
-		FB4B68D3291D965E006135D0 /* Preview Content */ = {
+		FBAE2F832924334E00F6FAC5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FB4B68D4291D965E006135D0 /* Preview Assets.xcassets */,
+				FB4B68D0291D965E006135D0 /* Assets.xcassets */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FB4B68DD291D965E006135D0 /* NUWITAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				FB4B68DE291D965E006135D0 /* NUWITAppTests.swift */,
-			);
-			path = NUWITAppTests;
-			sourceTree = "<group>";
-		};
-		FB4B68E7291D965E006135D0 /* NUWITAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FB4B68E8291D965E006135D0 /* NUWITAppUITests.swift */,
-				FB4B68EA291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift */,
-			);
-			path = NUWITAppUITests;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4B68D5291D965E006135D0 /* Preview Assets.xcassets in Resources */,
 				FB4B68D1291D965E006135D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4B68CF291D965D006135D0 /* ContentView.swift in Sources */,
-				FB4B68CD291D965D006135D0 /* NUWITAppApp.swift in Sources */,
+				FB4B68CF291D965D006135D0 /* CourseScheduleView.swift in Sources */,
+				FB4B68CD291D965D006135D0 /* CourseScheduleViewController.swift in Sources */,
+				FBAE2F7B2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift in Sources */,
+				FBAE2F7E2923F1CF00F6FAC5 /* CourseScheduleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4B68DF291D965E006135D0 /* NUWITAppTests.swift in Sources */,
+				FBAE2F7C2923EE0A00F6FAC5 /* CourseScheduleViewModel.swift in Sources */,
+				FBAE2F7F2923F1CF00F6FAC5 /* CourseScheduleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4B68EB291D965E006135D0 /* NUWITAppUITestsLaunchTests.swift in Sources */,
-				FB4B68E9291D965E006135D0 /* NUWITAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
