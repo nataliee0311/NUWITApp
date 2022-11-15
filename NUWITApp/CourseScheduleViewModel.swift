@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 public struct CourseScheduleViewModel {
     
@@ -23,36 +24,50 @@ public struct CourseScheduleViewModel {
     
     // MARK: Public Variables
     
-    public var courseTimes: [String] {
-        var courses = [String]()
+    public var courseTypes: [CourseType] {
+        var courses = [CourseType]()
         for course in courseSchedules {
-            courses.append(course.courseTimes.rawValue)
+            courses.append(course.courseType)
         }
         return courses
     }
     
-    public var courseNames: [String] {
-        var courses = [String]()
-        for course in courseSchedules {
-            courses.append(course.courses.rawValue)
+    public func courseTimes(courseName: CourseType) -> String {
+        switch courseName {
+        case .cs:
+            return "10:00 AM"
+        case .math:
+            return "12:00 PM"
+        case .history:
+            return "2:30 PM"
+        case .naturalScience:
+            return "6:00 PM"
         }
-        return courses
     }
     
-    public var courseIcon: [String] {
-        var courses = [String]()
-        for course in courseSchedules {
-            switch course.courseType {
-            case .cs:
-                courses.append("computer")
-            case .math:
-                courses.append("plusSign")
-            case .history:
-                courses.append("book")
-            case .naturalScience:
-                courses.append("beaker")
-            }
+    public func courseColor(courseName: CourseType) -> Color {
+        switch courseName {
+        case .cs:
+        return Color.red
+        case .math:
+            return Color.yellow
+        case .history:
+            return Color.blue
+        case .naturalScience:
+            return Color.green
         }
-        return courses
+    }
+    
+    public func courseIcon(courseName: CourseType) -> String {
+        switch courseName {
+        case .cs:
+            return "laptopcomputer"
+        case .math:
+            return "x.squareroot"
+        case .history:
+            return "book"
+        case .naturalScience:
+            return "testtube.2"
+        }
     }
 }

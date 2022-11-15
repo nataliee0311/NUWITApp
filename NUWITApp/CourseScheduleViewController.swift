@@ -13,10 +13,10 @@ struct CourseScheduleViewController: App {
     private var courseScheduleViewModel: CourseScheduleViewModel
 
     init() {
-        courseScheduleViewModel = CourseScheduleViewModel(courseSchedules: [.init(courses: .algorithms, courseTimes: .algorithmsStartTime, courseType: .cs),
-                                                                            .init(courses: .astronomy, courseTimes: .astronomyStartTime, courseType: .naturalScience),
-                                                                            .init(courses: .worldHistory, courseTimes: .worldHistoryStartTime, courseType: .history),
-                                                                            .init(courses: .calculus, courseTimes: .calculusStartTime, courseType: .math)])
+        courseScheduleViewModel = CourseScheduleViewModel(courseSchedules: [.init(courseType: .cs),
+                                                                            .init(courseType: .math),
+                                                                            .init(courseType: .history),
+                                                                            .init(courseType: .naturalScience)])
     }
     
     var body: some Scene {
